@@ -1,0 +1,26 @@
+Portfolio content & structure (living reference)
+
+SITE CONFIG (`src/config/site.ts`)
+- Update name, title, location, contact links, summary, and highlight stats.
+- Replace `portrait` with your photo (`public/image.png` recommended).
+- Edit `experiences`, `projects`, `skillCategories`, `education`, and `certificates` arrays.
+
+HERO
+- Tagline: "A portfolio built like a clear briefing..."
+- Portrait frame with caption; swap `/image.svg` for your headshot.
+
+THEME
+- Editorial palette in `src/index.css`: warm paper, ink, moss, terracotta.
+- Fonts: Fraunces (display) + Literata (body).
+
+SECTIONS
+- 01 Experience — vertical timeline
+- 02 Projects — featured work cards
+- 03 Skills — categorized tags
+- 04 Education — degree cards
+- 05 Certificates — certification grid
+- 06 Contact — email, LinkedIn, phone, location
+
+NAVIGATION
+- Fixed header with scroll-aware active section highlighting.
+- Mobile menu for smaller screens.
